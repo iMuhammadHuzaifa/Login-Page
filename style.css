@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.EjrkEptdye-EOtfPtKKDqQHaEK%26pid%3DApi&f=1&ipt=8f2827463906d431e3530d6cd10e8a3b583f05f677532af267c828dca1154c56&ipo=images);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.blur-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px 30px 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-group input[type="text"], 
+.input-group input[type="password"] {
+    width: 100%;
+    padding: 10px 45px 10px 15px;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-size: 16px;
+}
+
+.input-group input[type="text"]::placeholder {
+    color: #ddd;
+}
+
+.input-group input[type="password"]::placeholder{
+    color: #ddd;  
+}
+
+.input-group input[type="text"]:focus {
+outline: none;
+}
+
+.input-group input[type="password"]:focus{
+    outline: none;
+}
+
+.input-group i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+    padding: 12px;
+    background: #fff;
+    border: none;
+    border-radius: 25px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #ddd;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.options a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.options a:hover {
+    color: #ddd;
+}
+p{
+    font-size: 14px;
+    color: #ffffff;
+}
+a{
+    font-size: 14px;
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+a:hover {
+    color: #fff;
+}
+input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    accent-color: #ddd;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #333;
+    border: 1px solid #333;
+}
